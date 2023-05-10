@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -85,6 +85,15 @@ meter {
   max-width: 1440px;
   margin: 0 auto;
 }
+.primary-btn {
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #12b3bf;
+  padding: 12px 24px;
+  color: white;
+  font-family: poppins;
+  font-weight: 300;
+}
 
 /*=============  
 top navbar start 
@@ -117,3 +126,55 @@ top navbar start
 /*=============  
 top navbar end 
 =============*/
+
+/*=============  
+hero section start
+=============*/
+.hero-section {
+  background-image: url(images/banner@3x.png);
+  background-position: center;
+  background-size: cover;
+}
+.primary-nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primary-nav .child {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.logo {
+  width: 350px;
+  height: 73px;
+}
+.hamburger-icon {
+  width: 32px;
+  height: 20px;
+}
+.tagline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 252px 0 380px;
+}
+h1 {
+  text-align: center;
+  max-width: 470px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+h1 span {
+  color: black;
+}
